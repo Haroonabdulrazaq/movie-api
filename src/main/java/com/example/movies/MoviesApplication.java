@@ -12,7 +12,7 @@ public class  MoviesApplication {
 	public static void main(String[] args) {
 		SpringApplication.run(MoviesApplication.class, args);
 	}
-	@GetMapping("/movies")
+	@GetMapping("/")
 	public String apiIndex(){
 		return "Hello World";
 	}
